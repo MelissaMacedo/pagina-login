@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+   
+    <!-- Box Icons -->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+  
+    <title>Login Screen</title>
+</head>
+<body>
+    <div class="form-1">
+        <div class="shape1"></div>
+        <div class="shape2"></div>
+
+        <div class="form">
+            <img src="image/log.svg" alt="" class="form_img">
+            <form action="" class="form_content">
+                <h1 class="form_title">Bem Vindo</h1>
+
+                <div class="form_div form_div-one">
+                    <div class="form_icon">
+                        <i class='bx bx-user-circle'></i>
+                    </div>
+                        
+                    <div class="form_div-input">
+                        <label for="" class="form_label">Usuário</label>
+                        <input type="text"  id="login" name="login" class="form_input">
+                    </div>
+                </div>
+
+                <div class="form_div">
+                    <div class="form_icon">
+                        <i class='bx bx-lock'></i>
+                    </div>
+                        
+                    <div class="form_div-input">
+                        <label for="" class="form_label">Senha</label>
+                        <input type="password" id="senha" class="form_input">
+                    </div>
+                </div>
+                <a href="cadastre.html" class="form_register">Não Possui Cadastro?</a><br>
+                <a href="recupera.html" class="form_forgot">Esqueceu a Senha?</a>
+                <input type="submit" class="form_button" value="Login" onclick="logar(); return false">
+                
+               
+            </form>
+            <script src="main.js"></script>
+        </div>
+    </div>
+    
+</body>
+</html>
