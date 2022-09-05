@@ -1,5 +1,11 @@
 const inputs = document.querySelectorAll(".form_input")
 
+function mensagem(){
+
+    var email = document.getElementById('email').value;
+
+    alert('Senha de recuperação enviada com Sucesso!');
+}
 function logar(){
 
     var login = document.getElementById('login').value;

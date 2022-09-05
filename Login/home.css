@@ -1,7 +1,8 @@
 body {
     color: #404E67;
-    background: #F5F7FA;
+    background: rgba(113, 98, 151, 0.226);
     font-family: 'Open Sans', sans-serif;
+    
 }
 .table-wrapper {
     width: 700px;
@@ -9,6 +10,7 @@ body {
     background: #fff;
     padding: 20px;	
     box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    border-radius: 10px;
 }
 .table-title {
     padding-bottom: 10px;
